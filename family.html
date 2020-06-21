@@ -1,129 +1,175 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <!-- CSS only -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-        <!-- JS, Popper.js, and jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <link rel='icon' href='./Img/favicon.ico' type='image/x-icon'/>
-        <meta charset="UTF-8">
-        <title>
-           Family
-        </title>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-sm navbar-light fixed-top" Style="background-color: #e6faff;">
-            <a class="navbar-brand" href="#">My family</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="who.html">Who?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="family.html">Family</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="taste.html">Hobbies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="work.html">Work</a>
-                    </li>
-                </div>
-            </div>
-        </nav>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <img Id="prof-img" src='Img/family.jpg' alt="My family" title="My family" class="img-fluid sticky-top"/>
-                </div>
-                <div class="col-sm-8 col-md-8">
-                    <h1>
-                        My lovely family
-                    </h1>
-                    <h2>
-                        My wife (My Soul and my Savior)
-                    </h2>
-                        <p>Marie Christine Sterlin SENAT</p>
-            
-                        <p>Borned on March 16th, 1984</p>
-            
-                        <p>in Ivry-sur-Seine, France and Raised in Haiti</p>
-            
-                        <p></p>
-                    <h2>
-                        My Daughter (My Angel)
-                    </h2>
-                        <p>
-                            Raphaëlle Malia NICOLAS
-                        </p>
-                        <p>
-                            Borned on October 1st, 2012
-                        </p>
-                        
-                        <p>
-                            My little angel
-                        </p>
-                        <p>
-                            Is an artist (plays Violin, likes to paint, likes to sing)
-                        </p>
-                    <h2>
-                        Parents
-                    </h2>
-                        <p>
-                            Father: Eric NICOLAS (Haitian)
-                        <p>
-                            Mother: Eva Maria von REIS (German)
-                        </P>
-            
-                    <h2>
-                        Siblings
-                    </h2>
-                        <p>
-                            Sister Georgia Nicolas - 1968 (From both my father and mother)
-                        </p>
-                    <h2>
-                       Other siblings from my father's side
-                    </h2>
-                        <P>
-                            Erica Nicolas Michael – 1981 -> Demi soeur Lives in Virginia (has 2 kids)
-                        </p>
-                        <P>
-                            Michael Nicolas – November 11 –> 19XX Lives in Dominican Republic
-                        </p>
-                    <h2>
-                        My Grand Mother
-                    </h2>
-                        <p>Manman Zette - Rose Boncy NICOLAS</p>
-            
-                        <p>She rose me</p>
-                    <h2>
-                        My family (The Nicolas):
-                    </h2>
-                
-                    <div class="col-sm-12 col-md-12">
-                        <img src='Img/nicolas.jpg' alt="The Nicolas photo" title="The Nicolas" class="image img-fluid sticky-footer img-fluid sticky-footer" style="padding-bottom: 60px";/>
-                    </div>
-                </div>
-            </div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="./Img/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <title>
+      Family
+    </title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar-light fixed-top"
+      Style="background-color: #e6faff;"
+    >
+      <a class="navbar-brand" href="#">My family</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="who.html">Who?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="family.html">Family</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="taste.html">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html">Work</a>
+          </li>
         </div>
-        
+      </div>
+    </nav>
 
-        <div class="footer">
-            <div class = "contact">Contact info : Philippe NICOLAS</div>
-            <div class = "contactmail"><a href="mailto:philippe_nicolas@hotmail.com">philippe_nicolas@hotmail.com</a></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-md-4">
+          <img
+            id="prof-img"
+            src="Img/family.jpg"
+            alt="My family"
+            title="My family"
+            class="img-fluid sticky-top"
+          />
         </div>
-    </body>
+        <div class="col-sm-8 col-md-8">
+          <h1>
+            My lovely family
+          </h1>
+          <h2>
+            My wife (My Soul and my Savior)
+          </h2>
+          <p>Marie Christine Sterlin SENAT</p>
+
+          <p>Borned on March 16th, 1984</p>
+
+          <p>in Ivry-sur-Seine, France and Raised in Haiti</p>
+
+          <p></p>
+          <h2>
+            My Daughter (My Angel)
+          </h2>
+          <p>
+            Raphaëlle Malia NICOLAS
+          </p>
+          <p>
+            Borned on October 1st, 2012
+          </p>
+
+          <p>
+            My little angel
+          </p>
+          <p>
+            Is an artist (plays Violin, likes to paint, likes to sing)
+          </p>
+          <h2>
+            Parents
+          </h2>
+          <p>
+            Father: Eric NICOLAS (Haitian)
+          </p>
+
+          <p>
+            Mother: Eva Maria von REIS (German)
+          </p>
+
+          <h2>
+            Siblings
+          </h2>
+          <p>
+            Sister Georgia Nicolas - 1968 (From both my father and mother)
+          </p>
+          <h2>
+            Other siblings from my father's side
+          </h2>
+          <p>
+            Erica Nicolas Michael – 1981 -> Demi soeur Lives in Virginia (has 2
+            kids)
+          </p>
+          <p>
+            Michael Nicolas – November 11 –> 19XX Lives in Dominican Republic
+          </p>
+          <h2>
+            My Grand Mother
+          </h2>
+          <p>Manman Zette - Rose Boncy NICOLAS</p>
+
+          <p>She rose me</p>
+          <h2>
+            My family (The Nicolas):
+          </h2>
+
+          <div class="col-sm-12 col-md-12">
+            <img
+              src="Img/nicolas.jpg"
+              alt="The Nicolas photo"
+              title="The Nicolas"
+              class="image img-fluid sticky-footer img-fluid sticky-footer"
+              style="padding-bottom: 60px;"
+              ;
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="contact">Contact info : Philippe NICOLAS</div>
+      <div class="contactmail">
+        <a href="mailto:philippe_nicolas@hotmail.com"
+          >philippe_nicolas@hotmail.com</a
+        >
+      </div>
+    </div>
+  </body>
 </html>
